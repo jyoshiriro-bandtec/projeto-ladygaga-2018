@@ -1,0 +1,55 @@
+<meta charset="utf-8">
+<!-- a tag script contém códigos em JavaScript-->
+<script>
+    /* 
+      eu escrevo muito e tal
+      tipo um poeta
+      só que não
+      */
+
+    // A função alert() exibe uma janela de mensagem simples
+    alert('Atletas azulinos somos nós...');
+
+    /*
+     a document.writeln() ou document.write()
+     cria um conteúdo no corpo da página
+     */ 
+     document.writeln('sou um hacker HTML #SQN');
+     document.writeln('<br>sou um hacker Javascript');
+
+    /* 
+     a função prompt() 
+     exibe uma caixa para digitação de um texto
+    */
+    var time = prompt('Que time é o teu?');
+    /* o que o usuário digitar na caixa
+    ficará gravado no cara chamado 'time' */ 
+    // esse cara chamamos da variável (variável 'time')
+
+    // vamos ver se 'time' contém o que foi digitado?
+    document.writeln('<br>Seu time eh: '+time);
+    /* 
+    quando usamos + entre um texto 
+    e uma variável, estamos fazendo
+    CONCATENAÇÃO
+    */
+
+    // Aqui criamos outra variável (variável 'altura')
+    var altura = prompt('Qual sua altura?');
+    document.writeln('<br> Sua altura é: '+altura);
+
+    //document.writeln('<br> Você mede '+altura+ ' e torce para '+time);
+    document.writeln(`<br> Você mede ${altura} e torce para ${time}`);
+   /* 
+    quando iniciamos um texto com Crase (`)
+    podemos usar a INTERPOLAÇÃO
+    Nesse caso, a variável deve estar entre ${}
+    como no exemplo acima
+    */
+
+</script>
+
+
+
+
+
