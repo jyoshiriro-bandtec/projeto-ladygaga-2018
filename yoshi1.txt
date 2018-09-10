@@ -1,3 +1,8 @@
 dlsjfjio erghrehu
 rfgierjiguiugyerui 
+<<<<<<< HEAD
 alteração do perfil 1
+=======
+alteração do perfil 2 e coisa e tal
+kkkkkkkkkkkkk
+>>>>>>> a7d70cd2ceef97ba90a7a74906b28a9f5add8928
